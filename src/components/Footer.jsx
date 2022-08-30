@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="w-full gradient-bg-footer min-h-screen flex flex-col items-center justify-center p-5 gap-10" id='About'>
       <h1 className='text-white text-center text-5xl '>Developed By</h1>
-      <div className="flex w-full justify-center flex-col gap-10 md:flex-row">
+      <div className="flex w-full justify-center flex-col gap-10 md:flex-row gap-y-20 pt-10">
 
         <a href="https://tonmoy.itstorm.us/" target='_blank'>
           <div className={`${CardStyle} flex flex-col items-center p-2 gap-2 border rounded-md hover:shadow-2xl hover:scale-110 transition-all developer-card  cursor-pointer`}>
