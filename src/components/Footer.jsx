@@ -35,7 +35,7 @@ const Footer = () => {
         </div> */}
       </div>
       <h2 className='text-white text-center text-base pt-5'>
-        This project is developed as a university reasearch project
+        {/* This project is developed as a university reasearch project */}
         <br />
         {/* Under the supervision of
         <br />
