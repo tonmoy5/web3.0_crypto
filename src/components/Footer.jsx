@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
         </a>
 
-        <div className={`${CardStyle} flex flex-col items-center p-2 gap-2 border rounded-md hover:shadow-2xl hover:scale-110 transition-all developer-card `}>
+        {/* <div className={`${CardStyle} flex flex-col items-center p-2 gap-2 border rounded-md hover:shadow-2xl hover:scale-110 transition-all developer-card `}>
           <img src={shihab} alt="Tonmoy" className="h-40 w-40 rounded-full animate-bounce shadow-2xl" />
           <h2 className="text-white text-center text-2xl">Saifur Rahman Shihab</h2>
           <h2 className="text-white text-center">Phone: 01995169630</h2>
@@ -32,15 +32,15 @@ const Footer = () => {
           <h2 className="text-white text-center text-2xl">Riya Farhana Dolon</h2>
           <h2 className="text-white text-center">Phone: </h2>
           <h2 className="text-white text-center">Email: riyafarhana09@gmail.com</h2>
-        </div>
+        </div> */}
       </div>
       <h2 className='text-white text-center text-base pt-5'>
         This project is developed as a university reasearch project
         <br />
-        Under the supervision of
+        {/* Under the supervision of
         <br />
         <span className='text-[#29e3b8] text-xl'>Mr. Md. Ashfaqul Islam sir</span>
-        <br />
+        <br /> */}
         © 2022
       </h2>
     </div >
